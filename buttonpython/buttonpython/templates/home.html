@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website Landing Page Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  </head>
+  <body>
+    <section>
+      <header>
+        <h2><a href="#" class="logo">Logo</a></h2>
+        <div class="navigation">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Info</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+        <button onclick="location.href='{% url 'script' %}'">Execute</button>
+        </div>
+      </header>
+      <div class="content">
+        <div class="info">
+          <h2>Upload The File <br><span>Get the data..</span></h2>
+          <a href="#" class="form"></a>
+          <div class="file-upload-wrapper" data-text="Select your file!">
+            <input name="file-upload-field" type="file" class="file-upload-field" value="">
+          </div>
+        </form>
+        </div>
+      </div>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="main.js"></script>
+    </section>
+
+  </body>
+</html>
